@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Voila</title>
+	<link rel="shortcut icon" href="img/logo.png" type="image/png">
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+	<script defer src="https://use.fontawesome.com/releases/v5.2.0/js/all.js" integrity="sha384-4oV5EgaV02iISL2ban6c/RmotsABqE4yZxZLcYMAdG7FAPsyHYAPpywE9PJo+Khy" crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+	<div class="introduction">
+		<div class="container">
+			<header class="main-header">
+				<nav class="main-navigation">
+					<a class="main-header-logo">
+						<img src="img/main-logo.png" width="88" height="27" alt="Main logo of Voila"> 
+					</a>
+					<ul  class="site-navigation">
+						<li>
+							<a href="menu.html">Menu</a>
+							<p>Sit amet constetur adipisicing elit. Fugit perspiciatis.</p>
+						</li>
+						<li>
+							<a href="about.html">About</a>
+							<p>Adipisicing elit. Fugit pipsam ratione numquam</p>
+						</li>
+						<li>
+							<a href="events.html">Events</a>
+							<p>Ratione numquam lorem ipsum dolor sit amet tetur.</p>
+						</li>
+						<li>
+							<a href="reservations.html">Reservations</a>
+							<p>Voluptates animi cupiditate similique sint.</p>
+						</li>
+						<li>
+							<a href="contact.html">Contact</a>
+							<p>Quis nemo odio saepe ullam vitae officiis delectus.</p>
+						</li>
+					</ul>
+				</nav>
+			</header>
+
+
+			<div class="welcome">
+					<h1>Welcome to Voilà</h1>
+					<p>We offer mouth watering <span>French cuisine</span></p>
+					<div class="welcome-buttons">
+						<a href="menu.html" class="button">See Menu</a>
+						<a href="reservations.html" class="button">Find a table</a>
+					</div>
+					<b>Scroll down for detail</b>
+					<i class="fas fa-angle-double-down"></i>
+			</div>
+		</div>
+	</div>
+	
+
+	<main>
+			<section class="about">
+					<div class="about-text">
+						<h2>About Voila Restaurant</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec convallis lorem nec enim tempus viverra condimentum eget dui. Quisque ac ornare orci lacinia facilisis velit <a class="link" href="#">eget interdum</a>.</p>
+						<p>Quisque orci neque, euismod vitae turpis quis, accumsan iaculis velit. Nulla lacinia facilisis velit eget interdum.</p>
+						<a href="about.html" class="button">Read more</a>
+					</div>
+						<img class="wine" src="img/wine.jpg" width="636" height="498" alt="A glass of wine">
+						<img class="cooking" src="img/cooking.jpg" width="536" height="364" alt="Chef is cooking">
+						<img class="kitchen" src="img/kitchen.jpg" width="283" height="225" alt="A Restaurant Kitchen">
+						<img class="beefsteak" src="img/beefsteak.jpg" width="242" height="229" alt="Served Beefsteak">
+			</section>
+
+
+			<section class="cuisine">
+				<div class="cuisine-container">
+					<div class="pictures">
+						<div class="pic-1"></div>
+						<div class="pic-2"></div>
+						<div class="pic-3"></div>
+					</div>
+
+					<div class="cuisine-text">
+						<h2>Tasteful French Cuisine</h2>
+						<p>Lorem Ipsum roin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit <a class="link" href="#">consequat ipsum</a>, nec sagittis sem nibh id elit. </p>
+						<p>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec <a class="link" href="#">tellus a odio</a> tincidunt auctor a ornare odio. This duis sed odio sit amet nibh cursus a sit amet mauris. Morbi accumsan ipsum vulputate. </p>
+						<a href="menu.html" class="button">View menu</a>
+					</div>
+				</div>
+			</section>
+			
+
+			<div class="reserve-event-row">
+				<section class="reservation">
+					<h2>Make a Reservation</h2>
+					<form class="resevation" action="http://echo.htmlacademy.ru" method="post">
+						<p>
+							<label for="resevation-name" class="visually-hidden">Name</label>
+							<input class="reservation-item reservation-name" id="reservation-name" type="text" name="name" placeholder="Name*">
+						</p>
+						<p>
+							<label for="resevation-date" class="visually-hidden">Date</label>
+							<input class="reservation-item reservation-date" id="reservation-date" type="text" name="date" placeholder="Date*">
+						</p>
+						<p>
+							<label for="resevation-time" class="visually-hidden">Time</label>
+							<input class="reservation-item reservation-time" id="reservation-time" type="text" name="time" placeholder="Time*">
+						</p>
+						<p>
+							<label for="resevation-commensals" class="visually-hidden">Commensals</label>
+							<input class="reservation-item reservation-commensals" id="reservation-commensals" type="text" name="Commensals" placeholder="Commensals*">
+						</p>
+						<button type="submit" class="button">Find a Table</button>
+					</form>
+				</section>
+
+				<section class="events">
+					<h2>Upcoming Events</h2>
+					<ul>
+						<li>
+							<img src="img/events-1.png" width="72" height="72" alt="Live Music Fridays">
+							<h3>Live Music Fridays</h3>
+							<time datetime="2018-02-28">February 28th</time>	
+							<span>6:00 PM</span>
+							<p class="text">Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio non mauris. </p>
+							<a href="#" class="read-more">Read more...</a>			
+						</li>
+						<li>
+							<img src="img/events-2.png" width="72" height="72" alt="Louis XII Food Festival">
+							<h3>Louis XII Food Festival</h3>
+							<time datetime="2018-03-12">March 12th</time>
+							<span>12:00 PM</span>
+							<p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum atque, odit optio veritatis.</p>
+							<a href="#" class="read-more">Read more...</a>		
+						</li>
+						<li>
+							<img src="img/events-3.png" width="72" height="72" alt="Magic show with Karim Diaw">
+							<h3>Magic show with Karim Diaw</h3>
+							<time datetime="2018-03-22">March 22nd</time>	
+							<span>8:00 PM</span>
+							<p class="text"> Vel aliquid porro repellendus neque impedit assumenda quas a libero.</p>
+							<a href="#" class="read-more">Read more...</a>		
+						</li>
+					</ul>
+				</section>
+			</div>
+
+
+			<div class="booking-social-row">
+				<section class="booking">
+					<h2>Book a Table</h2>
+					<p>Like our restaurant concept? Book a table and taste our dishes on first hand.</p>
+					<a class="button" href="resevation.html">Book a Table</a>
+				</section>
+
+				<div class="or">
+					<span>Or</span>
+				</div>
+
+				<section class="social">
+					<h2>Tell to Your Friends</h2>
+					<p>Some of your friends may like to visit if you recommend us. They’ll trust your taste!</p>
+					<ul>
+						<li>
+							<a class="facebook" href="#">Share<span class="visually-hidden"> on Facebook</span></a>
+						</li>
+						<li>
+							<a class="twitter" href="#">Tweet<span class="visually-hidden"> on Twitter</span></a>
+						</li>
+					</ul>
+				</section>
+			</div>
+	</main>
+
+
+	<footer>
+		<div class="container">
+			<a class="main-footer-logo">
+				<img src="img/main-logo.png" width="88" height="27" alt="Main logo of Voila"> 
+			</a>
+
+			<div class="navigation">
+				<h3>Navigation</h3>
+				<ul>
+					<li>
+						<a href="menu.html">Menu</a>
+					</li>
+					<li>
+						<a href="about.html">About</a>
+					</li>
+					<li>
+						<a href="events.html">Events</a>
+					</li>
+					<li>
+						<a href="reservations.html">Reservations</a>
+					</li>
+					<li>
+						<a href="contact.html">Contact</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="visit-social">
+				<h3>Visit Us</h3>
+				<p>Nec sagittis sem nibh id elit. Duis sed odio sit amet nibh. 
+					<a class="link map" href="#">View on the map</a>.
+				</p>
+
+				<h3>Connect with Us</h3>
+				<ul class="social-links">
+					<li>
+						<a href="#" class="social-button"><span class="visually-hidden">Facebook</span><i class="fab fa-facebook-f"></i></a>
+					</li>
+					<li>
+						<a href="#" class="social-button"><span class="visually-hidden">Twitter</span><i class="fab fa-twitter"></i></a>
+					</li>
+					<li>
+						<a href="#" class="social-button"><span class="visually-hidden">Instagram</span><i class="fab fa-instagram"></i></a>
+					</li>
+					<li>
+						<a href="#" class="social-button"><span class="visually-hidden">Trip Adviser</span><i class="fab fa-tripadvisor"></i></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+
+
+	<section class="modal modal-map">
+		<h2 class="visually-hidden">Welcome</h2>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3324.2260018478414!2d-111.86435708561174!3d33.573480880738906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872b7553f9ecfeb7%3A0x116ff1cd4564bfb3!2zMTAxMzUgRSBWw61hIExpbmRhLCBTY290dHNkYWxlLCBBWiA4NTI1OCwg0KHQqNCQ!5e0!3m2!1sru!2sru!4v1535088471245" width="766" height="560" style="border:0" allowfullscreen></iframe>
+		<p>
+			<img src="img/map.png" width="766" height="560" alt="Our address is 10135 E Vía Linda Scottsdale, AZ 85258 USA">
+		</p>
+		<button type="button" class="modal-close">Close</button>
+	</section>
+	<div class="overlay"></div>
+
+
+	<script src="script.js"></script>
+</body>
+</html>
